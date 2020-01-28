@@ -22,6 +22,10 @@ h3 {
   color: #d48855;
 }
 
+h2 {
+  padding-top: 1em;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -36,6 +40,14 @@ a {
   text-decoration: none;
   display: block;
   color: black;
+}
+
+#footer-nav {
+  display: none;
+}
+
+body {
+  background: #f7f7f7;
 }
 
 /*=============
@@ -80,25 +92,23 @@ a {
   padding-left: .5em;
 }
 
-.footer-bottom * {
-  margin-top: 1em;
-  display: inline-block;
-  text-transform: uppercase;
-  color: black;
+.footer-bottom {
+  padding: 1em;
 }
-
   .footer-bottom span {
     float: left;
+    text-transform: uppercase;
+    color: black;
   }
 
-  .footer-bottom a {
+  #to-top {
+    text-transform: uppercase;
     float: right;
   }
 
 /* Containers */
 .main-header,
 .main-footer {
-  background: #f7f7f7;
   width: 100%;
   padding: 1em;
   color: #888;
@@ -110,6 +120,10 @@ a {
   text-align: center;
 }
 
+.wrapper {
+  background-color: white;
+}
+
 .footer-bottom {
   border-top: #dddddd 1px solid;
   margin-top: 2em;
@@ -119,5 +133,66 @@ a {
  Media Queries
 ============*/
 /* Tablet 768px */
+@media (min-width: 768px) {
+  *{
+    font-size: 1.02em;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .fig-port {
+    text-align: left;
+  }
+
+    .fig-port img {
+      float: right;
+      width: 40%;
+      margin-left: 1em;
+    }
+
+  .content {
+    display: inline-block;
+    width: 39%;
+  }
+
+  .main-footer p {
+    width: 50%;
+    margin: 2em auto;
+  }
+
+  #to-top {
+    display: none;
+  }
+
+  #footer-nav {
+    display: block;
+    float: right;
+    margin: 0;
+  }
+
+  #footer-nav li {
+    padding: 0;
+  }
+
+}
 
 /* Laptop 1024px */
+@media (min-width: 1024px) {
+  *{
+    font-size: 1.03em;
+  }
+
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .content {
+    width: 29%;
+    margin: 1em;
+  }
+}
