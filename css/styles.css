@@ -1,0 +1,39 @@
+/*=================================
+    Google Fonts
+font-family: 'Abel', sans-serif;
+font-family: 'Bebas Neue', cursive;
+ =================================*/
+
+/* Universal */
+* {
+  font-family: 'Abel', sans-serif;
+  box-sizing: border-box;
+}
+
+/*=============
+ Element Styles
+ ============*/
+
+h1,
+h2,
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*=============
+ Layout Styles
+ ============*/
+ /* Nav */
+
+ /* Elements */
+
+ /* Containers */
+
+/*=============
+ Media Queries
+ ============*/
+ /* Tablet 768px */
+
+ /* Laptop 1024px */
