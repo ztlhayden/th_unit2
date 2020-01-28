@@ -2,7 +2,7 @@
     Google Fonts
 font-family: 'Abel', sans-serif;
 font-family: 'Bebas Neue', cursive;
- =================================*/
+=================================*/
 
 /* Universal */
 * {
@@ -12,28 +12,95 @@ font-family: 'Bebas Neue', cursive;
 
 /*=============
  Element Styles
- ============*/
+============*/
+h1 {
+  padding-top: .5em;
+  margin: 0;
+}
 
 h1,
 h2,
 h3 {
   font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
-  color: #fff;
+  color: #d48855;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+figure {
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
 }
 
 /*=============
  Layout Styles
- ============*/
- /* Nav */
+============*/
+/* Nav */
 
- /* Elements */
+.main-nav li {
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: .5em 0;
+  margin: 0 1em .2em 1em;
+}
 
- /* Containers */
+.main-nav li:active {
+  background-color: #d48855;
+}
+
+/* Elements */
+
+.fig-port {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+}
+  .fig-port img {
+    width: 70%;
+  }
+
+  .fig-port figcaption {
+    padding-top: 1em;
+    color: #888;
+  }
+
+.content {
+  padding-bottom: 1em;
+}
+
+.content h3 {
+  margin: .5em;
+}
+
+/* Containers */
+
+.main-header {
+  text-align: center;
+  background: #f7f7f7;
+  width: 100%;
+}
+
+.wrapper {
+  text-align: center;
+}
 
 /*=============
  Media Queries
- ============*/
- /* Tablet 768px */
+============*/
+/* Tablet 768px */
 
- /* Laptop 1024px */
+/* Laptop 1024px */
