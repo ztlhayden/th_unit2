@@ -1,23 +1,23 @@
-/*=================================
-    Google Fonts
-font-family: 'Abel', sans-serif;
-font-family: 'Bebas Neue', cursive;
-=================================*/
-
-/* Universal */
+/* Universal*/
 * {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Abel', 'Bebas Neue', sans-serif;
   box-sizing: border-box;
+}
+
+/* Clearfix */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*=============
  Element Styles
 ============*/
-
 h1,
 h2,
 h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
   color: #d48855;
 }
@@ -42,7 +42,6 @@ a {
  Layout Styles
 ============*/
 /* Nav */
-
 .main-nav li {
   text-transform: uppercase;
   background-color: #fff;
@@ -55,7 +54,6 @@ a {
 }
 
 /* Elements */
-
 .fig-port {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -73,10 +71,6 @@ a {
   padding-bottom: 1em;
 }
 
-.content h3 {
-  margin: .5em;
-}
-
 .main-footer li {
   display: inline;
 }
@@ -86,8 +80,22 @@ a {
   padding-left: .5em;
 }
 
-/* Containers */
+.footer-bottom * {
+  margin-top: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: black;
+}
 
+  .footer-bottom span {
+    float: left;
+  }
+
+  .footer-bottom a {
+    float: right;
+  }
+
+/* Containers */
 .main-header,
 .main-footer {
   background: #f7f7f7;
@@ -100,6 +108,11 @@ a {
 .main-footer,
 .wrapper {
   text-align: center;
+}
+
+.footer-bottom {
+  border-top: #dddddd 1px solid;
+  margin-top: 2em;
 }
 
 /*=============
