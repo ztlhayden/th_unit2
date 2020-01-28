@@ -13,10 +13,6 @@ font-family: 'Bebas Neue', cursive;
 /*=============
  Element Styles
 ============*/
-h1 {
-  padding-top: .5em;
-  margin: 0;
-}
 
 h1,
 h2,
@@ -36,10 +32,6 @@ ul {
   padding: 0;
 }
 
-figure {
-  margin: 1em;
-}
-
 a {
   text-decoration: none;
   display: block;
@@ -54,8 +46,8 @@ a {
 .main-nav li {
   text-transform: uppercase;
   background-color: #fff;
+  margin-bottom: .2em;
   padding: .5em 0;
-  margin: 0 1em .2em 1em;
 }
 
 .main-nav li:active {
@@ -75,7 +67,6 @@ a {
 
   .fig-port figcaption {
     padding-top: 1em;
-    color: #888;
   }
 
 .content {
@@ -86,14 +77,27 @@ a {
   margin: .5em;
 }
 
-/* Containers */
-
-.main-header {
-  text-align: center;
-  background: #f7f7f7;
-  width: 100%;
+.main-footer li {
+  display: inline;
 }
 
+.contact {
+  color: black;
+  padding-left: .5em;
+}
+
+/* Containers */
+
+.main-header,
+.main-footer {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 1em;
+  color: #888;
+}
+
+.main-header,
+.main-footer,
 .wrapper {
   text-align: center;
 }
