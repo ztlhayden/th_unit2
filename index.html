@@ -15,15 +15,19 @@
 
 <body>
 <!-- start main-header -->
+  <!-- Nav -->
   <header class="main-header">
-    <h1>Hayden Young</h1>
+    <div class="header-wrapper cf">
+      <h1>Hayden Young</h1>
 
-    <ul class="main-nav">
-      <li><a href="#top">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contactme">Contact</a></li>
-    </ul>
-
+      <nav id="top-nav" class="main-nav">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contactme">Contact</a></li>
+      </nav>
+    </div>
+    <!-- Bio Figure -->
     <figure class="fig-port cf">
       <img src="images/responsive-layout-profile.png" alt="Portrait" title="Cartoon Portrait.">
       <figcaption>
@@ -32,7 +36,16 @@
     </figure>
   </header>
 <!-- end main-header -->
-
+<!-- start skills div -->
+  <div class="skills">
+    <h2 id="skills">Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+<!-- end skills div -->
 <!-- start wrapper div -->
   <div class="wrapper cf">
     <h2 id="portfolio">Portfolio</h2>
@@ -89,6 +102,7 @@
 
 <!-- main-footer -->
   <footer class="main-footer">
+    <!-- contact info -->
     <h2 id="contactme">Contact</h2>
     <p>
       If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
@@ -102,14 +116,15 @@
       <li>Email</li>
       <li class="contact">email@yoursite.com</li>
     </ul>
-
+    <!-- bottom footer -->
     <div class="footer-bottom cf">
       <span>Hayden Young</span>
-      <ul id="footer-nav" class="main-nav">
+      <nav id="footer-nav" class="main-nav">
         <li><a href="#top">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contactme">Contact</a></li>
-      </ul>
+      </nav>
       <a id="to-top" href="#top">Back to Top</a>
     </div>
   </footer>
