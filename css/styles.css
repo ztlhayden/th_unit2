@@ -161,6 +161,7 @@ body {
     background-color: transparent;
     margin-left: 1em;
     margin-right: 1em;
+    border-radius: 5px;
   }
 
   .fig-port {
